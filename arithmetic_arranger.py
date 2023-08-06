@@ -4,7 +4,7 @@ from re import search, findall
 
 def arithmetic_arranger(problems, tooutput: bool = False):  # tooupt: True -> calculate and print the equation
     if len(problems) > 5:
-        return 'Error: Too many problems.'  # ctrl + / to enter more than 5 problems
+        return 'Error: Too many problems.'  # comment this to enter more than 5
     up_num: str = ''
     down_num: str = ''
     div: str = ''  # the line
